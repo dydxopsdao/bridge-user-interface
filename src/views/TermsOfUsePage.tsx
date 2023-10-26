@@ -102,7 +102,7 @@ export const TermsOfUsePage = () => (
       We may revise and update these Terms of Use from time to time in our sole discretion. All
       changes are effective immediately when we post them, and apply to all access to and use of the
       Website thereafter. However, any changes to the dispute resolution provisions set out in the{' '}
-      <u>Governing Law and Jurisdiction</u> section below will not apply to any disputes for which
+      <strong>Governing Law and Jurisdiction</strong> section below will not apply to any disputes for which
       the parties have actual notice on or before the date the change is posted on the Website.
     </p>
     <p>
@@ -124,7 +124,7 @@ export const TermsOfUsePage = () => (
         <li>Making all arrangements necessary for you to have access to the Website.</li>
         <li>
           Ensuring that all persons who access the Website through your internet connection or on
-          your behalf are aware of these <u>Terms of Use</u> and comply with them.
+          your behalf are aware of these <strong>Terms of Use</strong> and comply with them.
         </li>
       </ul>
     </p>
@@ -686,7 +686,8 @@ Styled.Article = styled.article`
     font-weight: bold;
   }
 
-  u {
+  strong {
+    color: var(--color-text-2);
     text-decoration: underline;
   }
 `;
