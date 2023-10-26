@@ -642,7 +642,7 @@ export const TermsOfUsePage = () => (
     </p>
     <p>
       All feedback, comments, requests for technical support, and other communications relating to
-      the Website should be directed to: info@dydxopsservices.com.
+      the Website should be directed to: info@dydxopsservices.com
     </p>
   </Styled.Article>
 );
