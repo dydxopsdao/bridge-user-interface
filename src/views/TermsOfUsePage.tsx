@@ -17,7 +17,7 @@ export const TermsOfUsePage = () => (
     <p>
       If the user engages with the Website under authority from a different party or on another
       party’s behalf, then <b>“you”</b> (and its variants, including <b>“your”</b>, <b>“yours”</b>,
-      etc.) a used herein refers to that person on whose behalf the Website is used (e.g., an
+      etc.) as used herein refers to that person on whose behalf the Website is used (e.g., an
       employer). If the person engaging with our Website is an individual, acting in their own
       individual capacity, then <b>“you”</b> (and its variants) refers to that individual. If you
       have anyone using the Website on your behalf, you agree that you are responsible for the
@@ -422,10 +422,10 @@ export const TermsOfUsePage = () => (
       The Website may provide certain social media features that enable you to:
       <ul>
         <li>
-          Link from your own or certain third-party websites to certain content on the Website
+          Link from your own or certain third-party websites to certain content on the Website.
         </li>
         <li>
-          Send emails or other communications with certain content, or links to certain content,n
+          Send emails or other communications with certain content, or links to certain content, on
           the Website.
         </li>
         <li>
@@ -598,11 +598,11 @@ export const TermsOfUsePage = () => (
     <h2>Limitation on Time to File Claims</h2>
     <p>
       Any claim arising out of or relating to these Terms of Use must be brought by you within 12
-      months of such claim arising, or your date of knowledge of{' '}
-      <p>
-        the facts founding such claim if later, and you hereby expressly agree to exclude the effect
-        of the Limitation Act (1996 Revision) in this regard.
-      </p>
+      months of such claim arising, or your date of knowledge of the facts founding such claim if
+      later, and you hereby expressly agree to exclude the effect of the Limitation Act (1996
+      Revision) in this regard.
+    </p>
+    <p>
       You agree to the fullest extent permitted by law that no class or collective action can be
       asserted in relation to these Terms of Use, and that all claims, whether in arbitration or
       otherwise, arising out of or relating to these Terms of Use must be brought by you in your
