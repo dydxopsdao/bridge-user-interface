@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 
 import styled, { AnyStyledComponent } from 'styled-components';
 import { WagmiConfig } from 'wagmi';
@@ -28,8 +28,6 @@ import { Header } from '@/views/Header';
 import { MigratePage } from '@/views/MigratePage';
 import { PendingMigrationsPage } from '@/views/PendingMigrationsPage';
 import { DialogManager } from '@/views/dialogs/DialogManager';
-import { TermsOfUsePage } from '@/views/TermsOfUsePage';
-import { PrivacyPolicyPage } from '@/views/PrivacyPolicyPage';
 
 import { config } from '@/lib/wagmi';
 
@@ -80,9 +78,7 @@ const Content = () => {
               />
             }
           />
-
-          <Route path={AppRoute.Terms} element={<TermsOfUsePage />} />
-          <Route path={AppRoute.Privacy} element={<PrivacyPolicyPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Styled.Main>
 
