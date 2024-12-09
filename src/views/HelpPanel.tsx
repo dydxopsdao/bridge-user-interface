@@ -2,6 +2,7 @@ import styled, { AnyStyledComponent } from 'styled-components';
 
 import { STRING_KEYS } from '@/constants/localization';
 import { AppRoute } from '@/constants/routes';
+import { RELEVANT_LINKS } from '@/constants/links';
 
 import breakpoints from '@/styles/breakpoints';
 import { layoutMixins } from '@/styles/layoutMixins';
@@ -91,7 +92,7 @@ export const HelpPanel = () => {
         />
       </Styled.HelpCard>
 
-      <Styled.TermsLink href={`/#${AppRoute.Terms}`} withIcon>
+      <Styled.TermsLink href={RELEVANT_LINKS.find(link => link.value === 'TERMS_OF_USE')?.href} withIcon>
         {stringGetter({ key: STRING_KEYS.TERMS_OF_USE })}
       </Styled.TermsLink>
     </Styled.Container>

@@ -5,7 +5,6 @@ import { Close } from '@radix-ui/react-dialog';
 
 import { ButtonAction } from '@/constants/buttons';
 import { STRING_KEYS } from '@/constants/localization';
-import { AppRoute } from '@/constants/routes';
 
 import { layoutMixins } from '@/styles/layoutMixins';
 
@@ -16,6 +15,10 @@ import { Dialog } from '@/components/Dialog';
 import { closeDialog } from '@/state/dialogs';
 import { Checkbox } from '@/components/Checkbox';
 import { Link } from '@/components/Link';
+
+// Import Vite environment variables
+const TERMS_URL = import.meta.env.VITE_TERMS_URL;
+const PRIVACY_URL = import.meta.env.VITE_PRIVACY_URL;
 
 type ElementProps = {
   setIsOpen?: (open: boolean) => void;
@@ -47,8 +50,8 @@ export const AcknowledgeTermsDialog = ({ setIsOpen }: ElementProps) => {
           onCheckedChange={setHasAcknowledged}
           label={
             <Styled.Label>
-              I have read and agree to the <Link href={`/#${AppRoute.Terms}`}>Terms of Use</Link>{' '}
-              and <Link href={`/#${AppRoute.Privacy}`}>Privacy Policy</Link>.
+              I have read and agree to the <Link href={TERMS_URL}>Terms of Use</Link>{' '}
+              and <Link href={PRIVACY_URL}>Privacy Policy</Link>.
             </Styled.Label>
           }
         />
