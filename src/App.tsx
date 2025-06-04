@@ -11,6 +11,7 @@ import { AppRoute } from '@/constants/routes';
 import { AccountsProvider } from '@/hooks/useAccounts';
 import { AccountBalanceProvider } from '@/hooks/useAccountBalance';
 import { useInitializePage, useStringGetter } from '@/hooks';
+import { useVoteWarning } from '@/hooks/useVoteWarning';
 import { DydxProvider } from '@/hooks/useDydxClient';
 import { DialogAreaProvider, useDialogArea } from '@/hooks/useDialogArea';
 import { LocaleProvider } from '@/hooks/useLocaleSeparators';
@@ -41,6 +42,7 @@ const Content = () => {
   const { setDialogArea } = useDialogArea();
 
   useInitializePage();
+  useVoteWarning();
 
   const { selectedTab, setSelectedTab } = useMigrateToken();
 

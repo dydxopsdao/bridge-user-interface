@@ -12,6 +12,7 @@ import { MnemonicExportDialog } from './MnemonicExportDialog';
 import { MoreLinksDialog } from './MoreLinksDialog';
 import { OnboardingDialog } from './OnboardingDialog';
 import { RestrictedGeoDialog } from './RestrictedGeoDialog';
+import { VoteWarningDialog } from './VoteWarningDialog';
 import { WalletRestrictedDialog } from './WalletRestrictedDialog';
 
 export const DialogManager = () => {
@@ -42,6 +43,7 @@ export const DialogManager = () => {
     [DialogTypes.MoreLinks]: <MoreLinksDialog {...modalProps} />,
     [DialogTypes.Onboarding]: <OnboardingDialog {...modalProps} />,
     [DialogTypes.RestrictedGeo]: <RestrictedGeoDialog {...modalProps} />,
+    [DialogTypes.VoteWarning]: <VoteWarningDialog {...modalProps} />,
     [DialogTypes.WalletRestricted]: <WalletRestrictedDialog {...modalProps} />,
   }[type];
 };

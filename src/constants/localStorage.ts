@@ -9,6 +9,7 @@ export enum LocalStorageKey {
 
   // UI State
   SelectedLocale = 'dydx.migrate.SelectedLocale',
+  VoteWarningDismissed = 'dydx.migrate.VoteWarningDismissed',
 }
 
 export const LOCAL_STORAGE_VERSIONS = {

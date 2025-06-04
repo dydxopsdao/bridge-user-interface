@@ -5,6 +5,7 @@ export enum DialogTypes {
   MoreLinks = 'MoreLinks',
   Onboarding = 'Onboarding',
   RestrictedGeo = 'RestrictedGeo',
+  VoteWarning = 'VoteWarning',
   WalletRestricted = 'WalletRestricted',
 }
 

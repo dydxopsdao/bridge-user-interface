@@ -14,6 +14,7 @@ import { usePendingMigrationsData } from './usePendingMigrationsData';
 import { useRestrictions } from './useRestrictions';
 import { useStringGetter } from './useStringGetter';
 import { useTrackTransactionFinalized } from './migrate/useTrackTransactionFinalized';
+import { useVoteWarning } from './useVoteWarning';
 import { useWalletConnection } from './useWalletConnection';
 
 export {
@@ -33,5 +34,6 @@ export {
   useRestrictions,
   useStringGetter,
   useTrackTransactionFinalized,
+  useVoteWarning,
   useWalletConnection,
 };
