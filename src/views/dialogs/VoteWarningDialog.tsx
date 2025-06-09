@@ -35,7 +35,7 @@ export const VoteWarningDialog = ({ setIsOpen }: DialogProps) => {
     >
       <Styled.Content>
         <p>
-        A dYdX Chain governance <a href="https://www.mintscan.io/dydx/proposals/251/" target="_blank">proposal</a> has been initiated to terminate support for the ethDYDX–dYdX Chain bridge. If approved, the ability to migrate Ethereum-based DYDX tokens will cease.<br />
+        A dYdX Chain governance <a href="https://www.mintscan.io/dydx/proposals/254/" target="_blank">proposal</a> has been initiated to terminate support for the ethDYDX–dYdX Chain bridge. If approved, the ability to migrate Ethereum-based DYDX tokens will cease.<br />
         <br />
         If the proposal is passed, validators are expected to stop acknowledging bridge transactions on 12 June 2025. Users are therefore strongly encouraged to complete any pending migration of Ethereum-based DYDX tokens to the dYdX Chain prior to this date.<br />
         <br />
